@@ -18,7 +18,7 @@ public class RandomWord : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        addWords();              
+        addWords();
     }
 
     // Update is called once per frame
@@ -45,6 +45,11 @@ public class RandomWord : MonoBehaviour
     public void SetPosText()
     {
         Output.text = getPos();
+    }
+
+    public void clearText()
+    {
+        Output.text = "PSYCHOGRAPHY";
     }
 
     public string getEasyWord()
