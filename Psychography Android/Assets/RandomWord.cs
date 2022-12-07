@@ -11,6 +11,7 @@ public class RandomWord : MonoBehaviour
     public List<string> medWords = new List<string>();
     public List<string> hardWords = new List<string>();
     public List<string> possession = new List<string>();
+    public List<string> exorcism = new List<string>();
     public string output;
 
     [SerializeField] public TextMeshProUGUI Output;
@@ -47,6 +48,11 @@ public class RandomWord : MonoBehaviour
         Output.text = getPos();
     }
 
+    public void SetExText()
+    {
+        Output.text = getEx();
+    }
+
     public void clearText()
     {
         Output.text = "PSYCHOGRAPHY";
@@ -69,6 +75,11 @@ public class RandomWord : MonoBehaviour
     public string getPos()
     {
         return possession[Random.Range(0, possession.Count)];
+    }
+
+    public string getEx()
+    {
+        return exorcism[Random.Range(0, exorcism.Count)];
     }
 
     public void addWords()
@@ -377,7 +388,7 @@ public class RandomWord : MonoBehaviour
         possession.Add("Act out your next prompt");
         possession.Add("Draw with your non-dominant hand");
         possession.Add("Pick a player, draw your prompt on their back (they have to guess)");
-        possession.Add("Draw one of the following: Craig the Caterpillar, Dentist, Dave, Society, Wife or Jerma985");
+        possession.Add("Draw one of the special promts");
         possession.Add("Your next drawing must be a hard prompt");
         possession.Add("Move back 3 spaces");
         possession.Add("The player closest to the start of the board has to return to the first place");
@@ -386,6 +397,15 @@ public class RandomWord : MonoBehaviour
         possession.Add("Move to where the last player is (if you're the last player, the player closest to you moves back to your spot)");
         possession.Add("Soulbound (the player to your right must also draw on the next turn. both draw cards, if both drawings are guessed the two players move)");
         possession.Add("Sacrifice (draw a special card and choose a player to give it to, if guessed correctly, you both move spaces)");
-        possession.Add("Double draw (draw two possession cards without looking, choose another player to give the other card to)");    
+        possession.Add("Double draw (draw two possession cards without looking, choose another player to give the other card to)");
+
+        exorcism.Add("Choose a player on the board to swap places with (doesn't have to be you, you can swap two other players)");
+        exorcism.Add("Holy water (negates the effect of a possession card, can be held onto for several turns)");
+        exorcism.Add("Move forward 3 amount spaces");
+        exorcism.Add("Your next prompt is worth double the spaces");
+        exorcism.Add("Move to where the first player is (if you're first, move forward 3 spaces)");
+        exorcism.Add("Choose a player whose space you'll move to (if you're first, bring a player to your spot)");
+        exorcism.Add("Next easy prompt is worth the same amount as a hard prompt (move 3 spaces)");
+        exorcism.Add("Draw with your eyes open, but you only have 10 seconds");
     }
 }
