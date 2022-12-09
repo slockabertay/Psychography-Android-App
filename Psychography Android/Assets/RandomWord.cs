@@ -389,6 +389,8 @@ public class RandomWord : MonoBehaviour
         possession.Add("Draw with your non-dominant hand");
         possession.Add("Act out your next prompt");
         possession.Add("Draw with your non-dominant hand");
+        possession.Add("Act out your next prompt");
+        possession.Add("Draw with your non-dominant hand");
         possession.Add("Pick a player, draw your prompt on their back (they have to guess)");
         possession.Add("Draw one of the following: Dentist, Dave, Society, Wife, Amogus, Maid Outfit or Big Snoopa");
         possession.Add("Your next drawing must be a hard prompt");
@@ -399,17 +401,24 @@ public class RandomWord : MonoBehaviour
         possession.Add("Move back 1 spaces");
         possession.Add("Move back 1 spaces");
         possession.Add("Move back 1 spaces");
+        possession.Add("Move back 2 spaces");
+        possession.Add("Move back 2 spaces");
+        possession.Add("Move back 2 spaces");
         possession.Add("The player closest to the start of the board has to return to the first place");
         possession.Add("Swap places with the player behind you on the board (if you are in last shout 'Awwww man!')");
+        possession.Add("Move to the same space as the player behind you on the board (if you are in last shout 'Jinkies!')");
+        possession.Add("Move to the same space as the player behind you on the board (if you are in last shout 'OOF!')");
         possession.Add("Go mute for a round (no guessing)");
         possession.Add("Go mute for a round (no guessing)");
-        possession.Add("Move to where the last player is (if you're the last player move 3 spaces forward)");
-        possession.Add("Soulbound (the player to your right must also draw on the next turn. both draw cards, if both drawings are guessed the two players move)");
-        possession.Add("Sacrifice (draw a special card and choose a player to give it to, if guessed correctly, you both move spaces)");
+        possession.Add("Move to where the last player is (if you're the last player move 3 spaces forward)");        
+        possession.Add("Draw a special card and choose a player to give it to, if guessed correctly, you both move spaces");
         possession.Add("You have been possessed by a ghost and must speak like a pirate until your next turn");
+        possession.Add("You have been possessed by a ghost and must speak like a 'old timey' until your next turn");
         possession.Add("You have been possessed by a ghost and must speak with a high pitched voice until your next turn");
         possession.Add("You have been cursed and if no one gets your next drawing you move back 1 space");
         possession.Add("Draw your next prompt as badly as possible if no one guesses it move foward 2 spaces");
+        possession.Add("You have 15 seconds to draw your next prompt");
+        possession.Add("Move backwards to the nearest Exorcism or Possesion space");
 
 
         exorcism.Add("Choose a player on the board to swap places with (doesn't have to be you, you can swap two other players)");
@@ -421,11 +430,27 @@ public class RandomWord : MonoBehaviour
         exorcism.Add("Move forward 1 space");
         exorcism.Add("Move forward 1 space");
         exorcism.Add("Move forward 1 space");
+        exorcism.Add("Move forward 2 space");
+        exorcism.Add("Move forward 2 space");
+        exorcism.Add("Move forward 2 space");
         exorcism.Add("Your next prompt is worth double the spaces");
-        exorcism.Add("Move to where the first player is (if you're in first shout 'YIPIE!)");
+        exorcism.Add("Move to where the first player is (if you're in first shout 'YIPPIE!')");
         exorcism.Add("Choose a player whose space you'll move to (if you're in first, bring a player to your spot)");
         exorcism.Add("Your next easy prompt is worth the same amount as a hard prompt (move 3 spaces)");
         exorcism.Add("For your next promt draw with your eyes open, but you only have 10 seconds");
         exorcism.Add("Everyone draws a self portrait for fun!");
+        exorcism.Add("Draw a new prompt and everyone has to draw it (if a you can decide which drawing is the best the winner moves 3 spaces)");
+        exorcism.Add("You can choose another player (not you) to move 3 spaces forward");
+        exorcism.Add("A player of your choosing has to draw with their non dominant hand on their next turn");
+        exorcism.Add("A player of your choosing has to act out their next prompt on their next turn");
+        exorcism.Add("A player of your choosing has to do a little dance, sing a little song or move back 3 spaces");
+        exorcism.Add("Move forwards to the nearest Exorcism or Possesion space");
+        exorcism.Add("Until your next turn every time a player of your choosing moves you move too");
+        exorcism.Add("Write down something for the next player to draw");
+        exorcism.Add("Move to where the player in front of you is (if you're in first shout 'WAHOO!')");
+        exorcism.Add("Move to where the player in front of you is (if you're in first shout 'AWW YEAH!')");
+        exorcism.Add("Choose a player, they secretly write down a number between 1 and 10, if you guess it you move 3 spaces (1 guess)");
+        exorcism.Add("Choose a player, they secretly write down a number between 1 and 5 if you guess it in one (1 guess)");
+        exorcism.Add("Every player writes down an animal, if no one wrote the same answer as you move 1 space");
     }
 }

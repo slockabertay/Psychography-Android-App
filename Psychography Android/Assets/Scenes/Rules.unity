@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 111451728}
   - component: {fileID: 111451727}
   - component: {fileID: 111451731}
+  - component: {fileID: 111451732}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -245,8 +246,8 @@ MonoBehaviour:
   m_MovementType: 2
   m_Elasticity: 0.1
   m_Inertia: 1
-  m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_DecelerationRate: 0.01
+  m_ScrollSensitivity: 0.5
   m_Viewport: {fileID: 0}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}
@@ -257,6 +258,14 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!222 &111451732
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111451726}
+  m_CullTransparentMesh: 1
 --- !u!1 &124213877
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,15 +378,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 111451730}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1056.5015}
-  m_SizeDelta: {x: 1817.1755, y: 4033.0032}
+  m_AnchoredPosition: {x: 310.08307, y: -910}
+  m_SizeDelta: {x: 1700.166, y: 3740}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &763650887
 MonoBehaviour:
@@ -399,7 +408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2e21a8a0d7929bb4988efed3f3d41cb9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a845e4ad66e1ef4a8f8852017b8f948, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -431,7 +440,7 @@ GameObject:
   - component: {fileID: 1310160750}
   - component: {fileID: 1310160753}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
