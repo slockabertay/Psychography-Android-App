@@ -413,11 +413,12 @@ public class RandomWord : MonoBehaviour
         possession.Add("Move to where the last player is (if you're the last player move 3 spaces forward)");        
         possession.Add("Draw a special card and choose a player to give it to, if guessed correctly, you both move spaces");
         possession.Add("You have been possessed by a ghost and must speak like a pirate until your next turn");
-        possession.Add("You have been possessed by a ghost and must speak like a 'old timey' until your next turn");
+        possession.Add("You have been possessed by a ghost and must speak like an 'old timey' person until your next turn");
         possession.Add("You have been possessed by a ghost and must speak with a high pitched voice until your next turn");
         possession.Add("You have been cursed and if no one gets your next drawing you move back 1 space");
         possession.Add("Draw your next prompt as badly as possible if no one guesses it move foward 2 spaces");
         possession.Add("You have 15 seconds to draw your next prompt");
+        possession.Add("Move backwards to the nearest Exorcism or Possesion space");
         possession.Add("Move backwards to the nearest Exorcism or Possesion space");
 
 
@@ -444,6 +445,7 @@ public class RandomWord : MonoBehaviour
         exorcism.Add("A player of your choosing has to draw with their non dominant hand on their next turn");
         exorcism.Add("A player of your choosing has to act out their next prompt on their next turn");
         exorcism.Add("A player of your choosing has to do a little dance, sing a little song or move back 3 spaces");
+        exorcism.Add("Move forwards to the nearest Exorcism or Possesion space");
         exorcism.Add("Move forwards to the nearest Exorcism or Possesion space");
         exorcism.Add("Until your next turn every time a player of your choosing moves you move too");
         exorcism.Add("Write down something for the next player to draw");
